@@ -9,12 +9,12 @@ var articleone={
     heading: 'Article one',
     content: '<p>hello this is my first webpage.hello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpage</p>'
 };
-function Myfunction(data)
+function Myfunction (data)
 {
     var title=data.title;
     var heading=data.heading;
     var content=data.content;
-var htmltemplate=`<html>asd<html>
+var htmltemplate=`<html>asd
     <head>
         <title>${title}</title>
      <meta name="viewport" content="width=device-width,initial-scale=1"/>
