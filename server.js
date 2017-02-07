@@ -41,7 +41,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one',function(req,res){
-res.send();
+res.send(Myfunction(articleone));
     
 });
 app.get('/article-two',function(req,res){
