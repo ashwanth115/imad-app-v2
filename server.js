@@ -14,7 +14,7 @@ function Myfunction (data)
     var title=data.title;
     var heading=data.heading;
     var content=data.content;
-var htmltemplate=`<html>asd
+    var htmltemplate=`<html>
     <head>
         <title>${title}</title>
      <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -32,7 +32,8 @@ var htmltemplate=`<html>asd
             </div>
         
     </body>
-</html>`;
+</html>
+`;
 return htmltemplate;
 }
 app.get('/', function (req, res) {
