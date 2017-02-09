@@ -4,7 +4,7 @@ console.log('Loaded!');
           var marginLeft=0;
            function moveright()
            {
-             leftinterval=leftinterval+10;  
+             marginLeft=marginLeft+10;  
              a.style.marginLeft=marginLeft + 'px';
            }
            a.onclick=function (){
