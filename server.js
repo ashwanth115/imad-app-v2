@@ -4,10 +4,14 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articleone={
+var article={
+    articleone: {
     title: 'article one ',
     heading: 'Article one',
     content: '<p>hello this is my first webpage.hello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpagehello this is my first webpage</p>'
+},
+article2: {},
+article3: {} 
 };
 function Myfunction (data)
 {
