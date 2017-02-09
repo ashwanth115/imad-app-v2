@@ -6,6 +6,7 @@ console.log('Loaded!');
              leftinterval=leftinterval+10;  
              img.style.marginLeft=marginleft+'px';
            }
+           a.onclick=function (){
            var interval=setInterval(moveright,50);
-            
+           };
         
