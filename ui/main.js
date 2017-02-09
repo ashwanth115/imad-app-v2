@@ -5,7 +5,7 @@ console.log('Loaded!');
            function moveright()
            {
              leftinterval=leftinterval+10;  
-             img.style.marginLeft=marginLeft+'px';
+             img.style.marginLeft=marginLeft + 'px';
            }
            a.onclick=function (){
            var interval=setInterval(moveright,50);
